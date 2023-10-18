@@ -1,0 +1,47 @@
+/*css globale */
+
+input {
+  border: 1px solid #909090;
+  padding: 8px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  border: none;
+  background: rgb(237, 67, 67);
+  padding: 8px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.aggiungi-utente {
+  margin-bottom: 20px;
+}
+
+.elenco-utenti {
+  width: 100%;
+  border-collapse: collapse; /* per rimuovere bordi tra celle tabella */
+}
+
+.elenco-utenti tr:nth-child(even) {
+  background: #dbdbdb;
+}
+
+.elenco-utenti td {
+  padding: 10px;
+}
+
+.elenco-utenti td:last-child {
+  text-align: right; /*allineare elementi svg a destra */
+}
+
+.elenco-utenti tr:hover {
+  background: rgb(246, 249, 170);
+}
+
+.bidone {
+  cursor: pointer;
+  margin-left: 1em;
+}
